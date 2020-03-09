@@ -20,9 +20,9 @@ Requires: ovirt-ansible-vm-infra >= 1.2.0
 Requires: ovirt-ansible-hosted-engine-setup >= 1.0.0
 Requires: ovirt-ansible-shutdown-env >= 1.0.0
 %if 0%{?rhel} && 0%{?rhel} < 8
-Requires: python3-ovirt-engine-sdk4
-%else
 Requires: python-ovirt-engine-sdk4
+%else
+Requires: python3-ovirt-engine-sdk4
 %endif
 
 %description
