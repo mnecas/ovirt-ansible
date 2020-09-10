@@ -2,6 +2,8 @@
 
 # oVirt Ansible Roles
 
+## This role has been migrated to [oVirt Ansible Collection](https://github.com/ovirt/ovirt-ansible-collection), please use latest version from there. This repository is now readonly and no longer used for active development
+
 oVirt maintains multiple Ansible roles that can be deployed to easily configure and manage various parts of the oVirt infrastructure. Ansible roles provide a method of modularizing your Ansible code, in other words; it enables you to break up large playbooks into smaller reusable files. This enables you to have a separate role for each component of the infrustructure, and allows you to reuse and share roles with other users. For more information about roles, see [Creating Reusable Playbooks] in the Ansible Documentation.
 
 Currently we have implemented following Ansible roles:
